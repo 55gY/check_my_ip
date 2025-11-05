@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="zh" class="js">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords"
+        content="IP查询, 免费IP查询, IP地址, 地理位置查询, 国内IP查询, 外网IP查询, 网络连通性检测, IP归属地, GeoIP API, 网站访问检测, 查看IP地址, IP库查询, 本机IP查询, 网络工具, 多平台IP检测, 检查IP, check ip, vpn白名单, ip白名单">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="temp-ip/style.css">
+
+    <script src="temp-ip/app.js"></script>
+</head>
+
+<body class="ip-root">
+    <div class="ip-columns">
+        <div class="ip-column">
+            <div class="ip-box">
+                <h2 class="ip-title">从国内查询</h2>
+                <p class="ip-subtext">upaiyun</p>
+                <hr class="ip-sk-my-2">
+                <div class="ip-body">
+                    <div class="ip-sk-text-center">
+                        <p id="ip-upai"></p>
+                        <p id="ip-upai-geo" class="ip-sk-text-small">中国 江西 电信</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ip-column">
+            <div class="ip-box">
+                <h2 class="ip-title">从国内查询</h2>
+                <p class="ip-subtext">ipuu</p>
+                <hr class="ip-sk-my-2">
+                <div class="ip-body">
+                    <div class="ip-sk-text-center">
+                        <p id="ip-ipuu"></p>
+                        <p id="ip-ipuu-geo" class="ip-sk-text-small">江西省萍乡市安源区</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ip-column">
+            <div class="ip-box">
+                <h2 class="ip-title">从国内查询</h2>
+                <p class="ip-subtext">iqiyi</p>
+                <hr class="ip-sk-my-2">
+                <div class="ip-body">
+                    <div class="ip-sk-text-center">
+                        <p id="ip-iqiyi"></p>
+                        <p id="ip-iqiyi-geo" class="ip-sk-text-small">CT JiangXi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ip-column">
+            <div class="ip-box">
+                <h2 class="ip-title">从国内查询</h2>
+                <p class="ip-subtext">中国气象局</p>
+                <hr class="ip-sk-my-2">
+                <div class="ip-body">
+                    <div class="ip-sk-text-center">
+                        <p id="ip-lolicp"></p>
+                        <p id="ip-weathercma-geo" class="ip-sk-text-small">中国 江西 萍乡</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ip-column">
+            <div class="ip-box">
+                <h2 class="ip-title">从国外查询</h2>
+                <p class="ip-subtext">IP.SB</p>
+                <hr class="ip-sk-my-2">
+                <div class="ip-body">
+                    <div class="ip-sk-text-center">
+                        <p id="ip-ipsb"></p>
+                        <p id="ip-ipsb-geo" class="ip-sk-text-small"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ip-column">
+            <div class="ip-box">
+                <h2 class="ip-title">从国外查询</h2>
+                <p class="ip-subtext">ipapi</p>
+                <hr class="ip-sk-my-2">
+                <div class="ip-body">
+                    <div class="ip-sk-text-center">
+                        <p id="ip-ipapi"></p>
+                        <p id="ip-ipapi-geo" class="ip-sk-text-small">China Jiujiang Chinanet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        IP.getipuuIP();
+        IP.getupaiyunIP();
+        IP.getIpsbIP();
+        IP.getIpapiIP();
+
+        Region.getiqiyiIP();
+        Region.getlolicpIP();
+    </script>
+
+</body>
+
+</html>

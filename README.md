@@ -1,2 +1,1 @@
-# check_my_ip
-多节点查询自己的IP 
+![image](https://github.com/55gY/check_my_ip/blob/main/2025-11-05_11-03-21.png)
